@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/")
 public class WebController 
-{
+{ 
 
 @Autowired
 private Customer customer;

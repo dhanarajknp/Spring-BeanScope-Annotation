@@ -1,0 +1,11 @@
+ logging:
+  level:
+    ROOT: INFO
+    org.springframework: ERROR 
+    org.hibernate: OFF
+    com.javasampleapproach: ALL
+   
+  pattern:
+    console: "- %msg%n"
+    file: "*[%-5p]-- %m--%n"  
+  file: logs/docketLogGen2.log
